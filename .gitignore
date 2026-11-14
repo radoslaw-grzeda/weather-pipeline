@@ -1,0 +1,27 @@
+# Sekrety i środowisko
+.env
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Narzędzia jakości
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Budowanie paczki
+dist/
+build/
+*.egg-info/
+
+# System i edytor
+.DS_Store
+.vscode/
+.idea/
+
+# Lokalne dane
+data/
